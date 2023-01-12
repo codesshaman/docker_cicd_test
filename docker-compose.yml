@@ -8,5 +8,5 @@ services:
       - ./nginx/conf.d:/etc/nginx/conf.d/
     restart: unless-stopped
     ports:
-      - "80:80"
+      - "808:80"
     container_name: simple_nginx_html
